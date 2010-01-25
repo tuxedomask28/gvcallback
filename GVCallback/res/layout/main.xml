@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of GV Callback.
+
+    GV Callback is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    GV Callback is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with GV Callback.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+<merge
+	xmlns:android="http://schemas.android.com/apk/res/android"
+>
+	<LinearLayout
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	    <ScrollView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+		>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:paddingRight="5dip"
+			>
+				<LinearLayout
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+				>
+					<TextView
+						android:layout_width="fill_parent"
+						android:layout_weight="1"
+						android:layout_height="?android:attr/listPreferredItemHeight"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:text="@string/use_gv_callback"
+						android:id="@+id/always_label"
+						android:textColor="#FFF"
+					/>
+					<CheckBox
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/use_gv_callback"
+					/>
+				</LinearLayout>
+				
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textColor="#FFF"
+					android:text="@string/settings_phone_number"
+				/>
+				<EditText
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/callback_number"
+					android:hint="@string/settings_phone_number_hint"
+				/>
+				
+				<TextView
+					android:text="@string/setup_login_information"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textColor="#FFF" android:paddingTop="25px"/>
+				<EditText
+					android:id="@+id/username"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:hint="@string/username_description"
+					android:singleLine="true"
+				/>
+				<EditText
+					android:id="@+id/password"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:hint="@string/password_description"
+					android:password="true"
+					android:singleLine="true"
+				/>
+			</LinearLayout>
+		</ScrollView>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="bottom"
+			android:orientation="horizontal"
+		>
+			<Button
+				android:id="@+id/cancel"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/cancel"
+			/>
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+			/>
+			<Button
+				android:id="@+id/finish"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/finish"
+			/>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center"
+		android:clickable="true"
+		android:id="@+id/progress_overlay"
+		android:background="#CC000000"
+		android:visibility="gone"
+		android:orientation="vertical"
+	>
+		<TextView
+			android:id="@+id/progress_message"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="@string/setup_working"
+			android:textColor="#FFF"
+			android:paddingBottom="5dip"
+		/>
+		<ProgressBar
+			android:indeterminate="true"
+			style="?android:attr/progressBarStyleHorizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="15dip"
+			android:paddingRight="15dip"
+		/>
+	</LinearLayout>
+</merge>

@@ -1,0 +1,10 @@
+GV Callback
+Copyright 2010 Brandon Chalk
+
+This product includes software developed at http://code.google.com/p/gvcallback/. It
+is protected under the GNU GPL version 3. A copy of the GNU GPL version 3 can be
+found in gpl.txt.
+
+This software contains code derived from Evan Charlton's program, GV. The program, GV, 
+is protected under the Apache License 2.0. A copy of Apache License 2.0 can be found 
+in LICENSE-2.0.txt.
