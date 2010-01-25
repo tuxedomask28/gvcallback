@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of GV Callback.
+
+    GV Callback is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    GV Callback is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with GV Callback.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+<resources>
+    <string name="about_title">GV Callback</string>
+    <string name="about_message">© 2010 Brandon Chalk\nVersion: %s\n\nThis program is open source and available at http://code.google.com/p/gvcallback . It is protected under the GNU GPL v3. It is also based on Even Charlton's program, GV, which can be found at http://evancharlton.com/projects/gv .</string>
+    <string name="app_name">GV Callback</string>
+    <string name="bad_callback_title">Bad Callback Number</string>
+    <string name="bad_callback_message">Callback number was not saved. Callback number should be a 10 digit phone number.</string>
+	<string name="cancel">Cancel</string>
+	<string name="finish">Finish</string>
+    <string name="login_failed_title">Login failed!</string>
+    <string name="login_failed_message">There was an error logging in to Google Voice.\nPlease check your provided information and try again.</string>
+    <string name="password_description">Your Google Voice password</string>
+	<string name="settings_phone_number">Your callback number (required)</string>
+	<string name="settings_phone_number_hint">Almost always your cell number</string>
+    <string name="setup_login_information">Type in your Google Voice login information</string>
+    <string name="setup_testing_login">Testing login information...</string>
+    <string name="setup_working">Working...</string>
+    <string name="success_title">Success!</string>
+    <string name="success_message">Settings saved.</string>
+	<string name="use_gv_callback">Use GV Callback</string>
+    <string name="username_description">Your Google Voice username</string>
+    <string name="version">0.1</string>
+</resources>
