@@ -34,5 +34,5 @@
     <string name="success_message">Settings saved.</string>
 	<string name="use_gv_callback">Use GV Callback</string>
     <string name="username_description">Your Google Voice username</string>
-    <string name="version">0.1</string>
+    <string name="version">0.2</string>
 </resources>
